@@ -1,0 +1,19 @@
+{
+  "title": "Plant Cell",
+  "subtitle": "6th grade science, built in Blender",
+  "key_split_z": 2.6,
+  "stops": [
+    {"match": "Nucleus",       "cell": ["Sphere.002"], "key": ["Sphere.012"]},
+    {"match": "Nucleolus",     "cell": ["Sphere.003"], "key": ["Sphere.013"]},
+    {"match": "Rough",         "cell": ["Sphere.004"], "key": ["Icosphere.022"]},
+    {"match": "Smooth",        "cell": ["Sphere.005"], "key": ["Sphere.014"]},
+    {"match": "Ribosomes",     "cell": ["Icosphere", "Icosphere.001", "Icosphere.002", "Icosphere.003", "Icosphere.004", "Icosphere.005", "Icosphere.006", "Icosphere.007", "Icosphere.008", "Icosphere.009", "Icosphere.010", "Icosphere.011", "Icosphere.012", "Icosphere.013", "Icosphere.014", "Icosphere.015", "Icosphere.016", "Icosphere.017", "Icosphere.018", "Icosphere.019", "Icosphere.020", "Icosphere.021"], "key": ["Icosphere.023"], "frame": "cell"},
+    {"match": "Mito",          "cell": ["Sphere.006", "Sphere.008", "Sphere.009"], "key": ["Sphere.016"], "frame": "cell"},
+    {"match": "Chloroplast",   "cell": ["Sphere.007", "Sphere.010", "Sphere.011"], "key": ["Sphere.015"], "frame": "cell"},
+    {"match": "Cell wall",     "cell": ["Sphere.018"], "key": ["Sphere.019"], "frame": "cell"},
+    {"match": "Cell membrane", "cell": ["Sphere"], "key": ["Sphere.020"], "frame": "cell"},
+    {"match": "body",          "cell": ["Torus.004"], "key": ["Torus.001"]},
+    {"match": "Vesicle",       "cell": ["Torus.005", "Torus.006", "Torus.007", "Torus.008", "Torus.009"], "key": ["Torus.002"]},
+    {"match": "Va",            "cell": ["Mball.p0"], "key": ["Mball.p1"]}
+  ]
+}
